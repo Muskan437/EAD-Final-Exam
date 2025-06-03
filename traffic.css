@@ -1,0 +1,30 @@
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px auto;
+  background-color: #555;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.light.red {
+     background-color: #db3c31;
+}
+.light.yellow {
+    background-color: #ffeb3b;
+}
+.light.green {
+background-color: #4caf50;
+}
+.light.red.active {
+  box-shadow: 0 0 20px rgba(236, 67, 55, 0.5);
+}
+.light.yellow.active {
+  box-shadow: 0 0 20px rgba(186, 175, 70, 0.5);
+}
+.light-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
